@@ -1,19 +1,36 @@
+import PropTypes from 'prop-types';
+
 import StatisticsItem from './StatisticsItem';
+import TaskTitle from '../TaskTitle/TaskTitle';
+
+import styles from './Statistics.module.scss';
 
 const Statistics = ({ title, stats }) => (
-  <section className="statistics">
-    <h2 className="title">{title}</h2>
+  <div>
+    <TaskTitle title="2 - My Statistics" />
+    <section className={styles.statistics}>
+      {title && <h3 className={styles.title}>{title}</h3>}
 
-    <ul className="stat-list">
-      {stats.map(item => (
-        <StatisticsItem
-          key={item.id}
-          label={item.label}
-          percentage={item.percentage}
-        />
-      ))}
-    </ul>
-  </section>
+      <ul className={styles.statList}>
+        {stats.map(item => (
+          <StatisticsItem key={item.id} item={item} />
+        ))}
+      </ul>
+    </section>
+  </div>
 );
+
+Statistics.defaultProps = {
+  stats: [],
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    }),
+  ),
+};
 
 export default Statistics;
