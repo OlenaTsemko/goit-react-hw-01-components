@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.8d853b39.chunk.css",
-    "main.js": "/goit-react-hw-01-components/static/js/main.50ae587f.chunk.js",
-    "main.js.map": "/goit-react-hw-01-components/static/js/main.50ae587f.chunk.js.map",
+    "main.css": "/goit-react-hw-01-components/static/css/main.011003e7.chunk.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.0306a584.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.0306a584.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.72840726.js",
     "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.72840726.js.map",
     "static/css/2.de71bbd8.chunk.css": "/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css",
-    "static/js/2.80f997d8.chunk.js": "/goit-react-hw-01-components/static/js/2.80f997d8.chunk.js",
-    "static/js/2.80f997d8.chunk.js.map": "/goit-react-hw-01-components/static/js/2.80f997d8.chunk.js.map",
+    "static/js/2.b4ae0cca.chunk.js": "/goit-react-hw-01-components/static/js/2.b4ae0cca.chunk.js",
+    "static/js/2.b4ae0cca.chunk.js.map": "/goit-react-hw-01-components/static/js/2.b4ae0cca.chunk.js.map",
     "index.html": "/goit-react-hw-01-components/index.html",
     "static/css/2.de71bbd8.chunk.css.map": "/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css.map",
-    "static/css/main.8d853b39.chunk.css.map": "/goit-react-hw-01-components/static/css/main.8d853b39.chunk.css.map",
-    "static/js/2.80f997d8.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.80f997d8.chunk.js.LICENSE.txt"
+    "static/css/main.011003e7.chunk.css.map": "/goit-react-hw-01-components/static/css/main.011003e7.chunk.css.map",
+    "static/js/2.b4ae0cca.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.b4ae0cca.chunk.js.LICENSE.txt",
+    "static/media/Header.module.scss": "/goit-react-hw-01-components/static/media/favicon.4fe75d5f.ico",
+    "static/media/friend-avatar-placeholder.94136411.jpg": "/goit-react-hw-01-components/static/media/friend-avatar-placeholder.94136411.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72840726.js",
     "static/css/2.de71bbd8.chunk.css",
-    "static/js/2.80f997d8.chunk.js",
-    "static/css/main.8d853b39.chunk.css",
-    "static/js/main.50ae587f.chunk.js"
+    "static/js/2.b4ae0cca.chunk.js",
+    "static/css/main.011003e7.chunk.css",
+    "static/js/main.0306a584.chunk.js"
   ]
 }
